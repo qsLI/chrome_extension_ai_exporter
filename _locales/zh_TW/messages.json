@@ -1,0 +1,18 @@
+{
+   "edgeExtensionName": {
+      "description": "The name of the extension for Edge",
+      "message": "AI Exporter - ChatGPT 轉 PDF"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension",
+      "message": "專業的 AI 對話匯出與管理工具。將 ChatGPT、Claude、Gemini 對話儲存為 PDF、Word 或 Markdown，格式完整、公式與程式碼都能保留。支援 16+ 個 AI 網站，一鍵下載或複製。"
+   },
+   "extensionName": {
+      "description": "The name of the extension",
+      "message": "AI Exporter - 將 ChatGPT、Claude 和 Gemini 會話儲存為 PDF、MD 等格式"
+   },
+   "firefoxExtensionName": {
+      "description": "The name of the extension for Firefox",
+      "message": "AI Exporter - ChatGPT 匯出 PDF 與 Word"
+   }
+}

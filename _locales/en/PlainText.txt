@@ -1,0 +1,70 @@
+🚀 AI Exporter - Your Cross-Platform AI Knowledge Archiving & Asset Management Tool
+
+In the AI era, high-quality conversations are digital assets. AI Exporter is a professional browser extension designed to build a seamless AI knowledge archiving experience for you.
+
+Whether you are conducting academic research, debugging code, or brainstorming daily, with just one click, you can losslessly export deep conversations from 16+ mainstream platforms like ChatGPT, Claude, and Gemini into beautifully formatted PDF, Word, or clean Markdown formats.
+
+Expand your AI knowledge workflow:
+• Efficient Collaboration: Quickly share with colleagues or teams, losslessly conveying AI insights and technical solutions;
+• Secondary Generation: Use as high-quality corpus Sources, feeding them to ChatGPT, Gemini, or NotebookLM to start deeper, brand-new conversations;
+• Local Knowledge Base: Safely archive conversations locally. Not only is it convenient for review anytime, but it also serves as a local knowledge base for your Local AI Agents (like Claude Code, Cursor/Codex, etc.) to read and retrieve directly;
+• Cloud Direct Connection: With just one click, you can even permanently sync them to your Notion workspace.
+
+💡 Core Features & Advantages
+
+🎨 Lossless Parsing, High-Fidelity Content Restoration
+• Built-in powerful conversation parsing and rendering engine accurately identifies and perfectly presents complex LaTeX math formulas, syntax highlighting, tables, and mixed text-image layouts, restoring the elegant reading experience of the native webpage.
+• Designed for extreme scenarios: Super-long deep conversations can be exported completely without crashing, truncating, or layout mess.
+• Exported files automatically record the conversation time and AI model version (e.g., ChatGPT gpt-5-6-thinking, Gemini 3 Pro) for easy future reference.
+
+✂️ Precise Cropping, Keep Only the Core Value
+No need to be forced to download the entire lengthy conversation. Freely check the required message bubbles, precisely strip away useless fluff, and export only the truly valuable core insights.
+
+🔄 All-Scenario Format Output, Break Data Silos
+One-click conversion to multiple standard formats, easily integrating AI outputs into your existing workflow:
+• PDF / Word: Suitable for formal reporting and academic sharing.
+• Markdown (MD) / JSON: The top choice for geeks and developers, perfectly integrating with local note-taking software like Obsidian.
+• Plain Text (TXT)
+• Long Image Sharing Cards: Generate exquisite long images with one click for easy sharing of AI inspiration on social networks.
+
+🧠 Cloud Direct Connection, Build Your Notion AI Knowledge Base
+Skip tedious local downloading and uploading. Through authorization, save high-value AI inspirations and conversations directly as structured Notion pages with one click, easily building your personal AI knowledge base.
+
+🔬 Deep Research Mode Fully Compatible
+• Fully supports lossless content export for ChatGPT Deep Research and Gemini Deep Research modes.
+• Perfectly preserves Google Search AI Model search result exports.
+• Original sidebar mode: Supports temporarily saving cross-platform conversations locally for easy multi-model comparison and merged archiving.
+
+💬 Frequently Asked Questions (FAQ)
+
+1. Which AI websites does AI Exporter support?
+We primarily focus on ChatGPT, Claude, and Gemini exports, but we also perfectly support 16+ mainstream AI websites including NotebookLM, DeepSeek, Grok, Perplexity, etc. You can even combine conversations from different models into a single page for a merged export.
+
+2. Will formulas, code, and images be lost during export?
+No! We have invested heavily in our parsing engine. Whether it's PDF or Markdown, it can perfectly preserve complex LaTeX math formulas, syntax highlighting for various languages, tables, and mixed text-image layouts from the native webpage.
+
+3. Can I export only part of the conversation?
+Yes. You can use the checkbox feature to precisely select the message bubbles you need to export.
+
+4. Will the export easily fail if the conversation is extremely long?
+No. We have specifically optimized performance for super-long conversations, ensuring that massive amounts of content can be exported completely without truncation or crashing.
+
+5. Can I only export to PDF?
+Mainly PDF and Markdown, but we also support exporting to Word, JSON, Text, and Image formats, and support direct syncing to Notion.
+
+6. Is AI Exporter free?
+Most features are completely free! Exporting formats like Markdown, TXT, JSON, and long images is permanently free. PDF export provides 3 free quotas per day, which is enough to meet the daily needs of the vast majority of users.
+
+❤️ Recent Updates (Changelog)
+v4.4.4
+1. Support for Dark Mode
+
+v4.4.3
+1. Support for export functionality on m365.copilot.com
+2. Further support for downloading and exporting Claude Cowork and Share Link conversations
+3. When saving Markdown, support bundling images in the conversation into a ZIP file (optional feature)
+
+v4.4.2
+1. Added support for downloading and exporting ChatGPT Share Links
+2. Added support for downloading and exporting Gemini Share Links
+3. Support using AI Exporter on both kimi.ai and kimi.com simultaneously

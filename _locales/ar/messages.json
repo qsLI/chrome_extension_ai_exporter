@@ -1,0 +1,18 @@
+{
+   "edgeExtensionName": {
+      "description": "The name of the extension for Edge",
+      "message": "AI Exporter - ChatGPT إلى PDF"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension",
+      "message": "أداة احترافية لتصدير وإدارة محادثات AI. احفظ ChatGPT وClaude وGemini كـ PDF أو Word أو Markdown. يعمل على 16+ مواقع AI."
+   },
+   "extensionName": {
+      "description": "The name of the extension",
+      "message": "AI Exporter - احفظ محادثات ChatGPT و Claude و Gemini كـ PDF و MD والمزيد"
+   },
+   "firefoxExtensionName": {
+      "description": "The name of the extension for Firefox",
+      "message": "AI Exporter - ChatGPT إلى PDF"
+   }
+}

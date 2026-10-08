@@ -1,0 +1,18 @@
+{
+   "edgeExtensionName": {
+      "description": "Name der Erweiterung für Edge",
+      "message": "AI Exporter – ChatGPT als PDF"
+   },
+   "extensionDescription": {
+      "description": "Beschreibung der Erweiterung",
+      "message": "KI-Chats exportieren und verwalten. Speichert ChatGPT, Claude und Gemini als PDF, Word oder Markdown. Unterstützt 16+ KI-Websites."
+   },
+   "extensionName": {
+      "description": "Name der Erweiterung",
+      "message": "AI Exporter – ChatGPT, Claude und Gemini als PDF, MD und mehr"
+   },
+   "firefoxExtensionName": {
+      "description": "Name der Erweiterung für Firefox",
+      "message": "AI Exporter – ChatGPT als PDF und Word"
+   }
+}

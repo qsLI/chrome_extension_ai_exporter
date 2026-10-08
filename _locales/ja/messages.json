@@ -1,0 +1,18 @@
+{
+   "edgeExtensionName": {
+      "description": "The name of the extension for Edge",
+      "message": "AI Exporter - ChatGPTをPDFへ"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension",
+      "message": "プロ向けのAIチャット書き出し・管理ツール。ChatGPT、Claude、Geminiの会話をPDF、Word、Markdownで保存。16以上のAIサイトに対応。"
+   },
+   "extensionName": {
+      "description": "The name of the extension",
+      "message": "AI Exporter - ChatGPT、Claude、Geminiの会話をPDFやMDなどに保存"
+   },
+   "firefoxExtensionName": {
+      "description": "The name of the extension for Firefox",
+      "message": "AI Exporter - ChatGPTをPDFに"
+   }
+}

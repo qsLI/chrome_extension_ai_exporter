@@ -1,0 +1,18 @@
+{
+   "edgeExtensionName": {
+      "description": "The name of the extension for Edge in Spanish",
+      "message": "AI Exporter - ChatGPT a PDF"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension",
+      "message": "Exportador y gestor profesional de chats IA. Guarda ChatGPT, Claude y Gemini en PDF, Word o Markdown. Funciona en 16+ sitios IA."
+   },
+   "extensionName": {
+      "description": "The name of the extension",
+      "message": "AI Exporter - Guarda chats de ChatGPT, Claude y Gemini en PDF, MD y más"
+   },
+   "firefoxExtensionName": {
+      "description": "The name of the extension for Firefox in Spanish",
+      "message": "AI Exporter - ChatGPT a PDF y Word"
+   }
+}

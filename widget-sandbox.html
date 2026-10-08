@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body></body>
+<script>
+  (() => {
+  const params = new URLSearchParams(window.location.search);
+  const widgetId = params.get("id") || "";
+  let widgetToken = "";
+  let renderPort = null;
+
+  const renderHtml = (html) => {
+    document.open();
+    document.write(html);
+    document.close();
+  };
+
+  const handleRenderMessage = (event) => {
+    const data = event.data;
+    if (
+      !data ||
+      data.source !== "saveai-claude-show-widget-render" ||
+      data.widgetId !== widgetId ||
+      data.token !== widgetToken ||
+      typeof data.html !== "string"
+    ) {
+      return;
+    }
+
+    renderHtml(data.html);
+  };
+
+  const handleInitMessage = (event) => {
+    const data = event.data;
+    const port = event.ports && event.ports[0];
+    if (
+      event.source !== window.parent ||
+      !data ||
+      data.source !== "saveai-claude-show-widget-init" ||
+      data.widgetId !== widgetId ||
+      typeof data.token !== "string" ||
+      !port
+    ) {
+      return;
+    }
+
+    widgetToken = data.token;
+    renderPort = port;
+    window.__SAVEAI_CLAUDE_WIDGET_POST_HEIGHT = (height) => {
+      renderPort.postMessage({
+        source: "saveai-claude-show-widget",
+        widgetId,
+        token: widgetToken,
+        height,
+      });
+    };
+    renderPort.onmessage = handleRenderMessage;
+    renderPort.start();
+    window.removeEventListener("message", handleInitMessage);
+
+    renderPort.postMessage({
+      source: "saveai-claude-show-widget-ready",
+      widgetId,
+      token: widgetToken,
+    });
+  };
+
+  window.addEventListener("message", handleInitMessage);
+})();
+</script>
+</html>
